@@ -10,3 +10,7 @@ node {
   sh 'sleep 10'
   sh 'echo wow2'
 }
+node {
+  stage 'oooohh'
+  sh 'env | sort'
+}
