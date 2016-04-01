@@ -7,12 +7,12 @@ node {
 
   stage 'wow'
   sh 'echo wow'
-  sh 'sleep 10'
+  sh 'sleep 3'
   sh 'echo wow2'
 }
 node {
   stage 'oooohh'
   sh 'echo ooooh'
-  sh 'sleep 5'
+  sh 'sleep 3'
   sh 'env | sort'
 }
