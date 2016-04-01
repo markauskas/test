@@ -1,11 +1,7 @@
-simpleBuild {
-    env = [
-        FOO : 42,
-        BAR : "YASS"
-    ]
-    before_script = "echo before"
-    script = 'echo after $FOO'
-    notifications = [
-        email : "tomas@dawanda.com"
-    ]
+node {
+  stage 'lol'
+  sh 'echo lol'
+
+  stage 'omg'
+  sh 'echo omg'
 }
