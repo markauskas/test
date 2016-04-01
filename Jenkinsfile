@@ -16,3 +16,8 @@ node {
   sh 'sleep 3'
   sh 'env | sort'
 }
+node {
+  state 'stage 3'
+  sh 'echo 3'
+  sh 'sleep 1'
+}
