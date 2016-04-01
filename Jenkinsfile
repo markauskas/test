@@ -12,5 +12,7 @@ node {
 }
 node {
   stage 'oooohh'
+  sh 'echo ooooh'
+  sh 'sleep 5'
   sh 'env | sort'
 }
